@@ -1,0 +1,130 @@
+$main-font: 'Montserrat', sans-serif
+$main-font-color: #555555
+$dop-font: 'Roboto Slab', serif
+$dop-font-color: #ffffff
+$main-font-size: 14px
+
+*
+  padding: 0
+  margin: 0
+
+h3
+  font-family: $main-font
+  color: $main-font-color
+  font-size: 20px
+  text-transform: uppercase
+  text-align: center
+  margin-bottom: 62px
+
+  &:after
+    content: ""
+    display: block
+    width: 50px
+    height: 2px
+    background-color: #555555
+    margin: auto
+    margin-top: 30px
+
+.bg-img
+  background-image: url("../images/bg_01.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center bottom
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link
+  color: $dop-font-color
+
+.bg-light
+  background-color: transparent !important
+
+.navbar
+  padding: 40px 0 0
+
+  a.navbar-brand
+    font-family: $main-font
+    font-weight: 600
+    color: $dop-font-color !important
+    font-size: 24px
+    padding-top: 0
+    padding-bottom: 0
+    margin-right: 0
+
+
+.nav-link
+  padding: 6px
+
+a.nav-link
+  font-size: $main-font-size
+  font-family: $main-font
+  font-weight: 400
+  padding: 6px 15px
+  margin-bottom: 263px
+
+  &:hover
+    color: $dop-font-color !important
+
+.welcome
+  color: $dop-font-color
+
+  h1
+    text-transform: uppercase
+    font-family: $main-font
+    font-size: 48px
+    margin-bottom: 33px
+    text-align: center
+
+  p
+    font-family: $dop-font
+    font-size: 20px
+    margin-bottom: 54px
+    text-align: center
+
+  a
+    display: inline-block
+    font-family: $main-font
+    color: $dop-font-color
+    font-size: 16px
+    text-decoration: none
+    text-transform: uppercase
+    line-height: 46px
+    border: solid 2px #fff3cd
+    padding-left: 34px
+    padding-right: 34px
+    margin-bottom: 259px
+
+.services
+  padding-top: 100px
+  color: $main-font-color
+
+  p
+    font-family: $dop-font
+    font-size: 16px
+    text-align: center
+    margin-bottom: 70px
+
+  a
+    text-decoration: none
+    display: block
+
+
+    &:before
+      content: "\f121"
+      display: inline-block
+      font-family: 'Font Awesome 5 Free'
+      font-weight: 400
+      color: #c0301c
+      font-size: 40px
+      width: 86px
+      line-height: 86px
+      border: solid 2px #dddddd
+      border-radius: 50%
+      text-align: center
+
+    &:nth-child(2):before
+
+      content: "\f031"
+      font-weight: 900
+
+    &:last-child:before
+      content: "\f1cd"
+      font-weight: 400
