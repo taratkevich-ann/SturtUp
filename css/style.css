@@ -25,14 +25,13 @@ h3 {
   background-size: cover;
   background-position: center bottom; }
 
-.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
-  color: #ffffff; }
-
-.bg-light {
-  background-color: transparent !important; }
+.navbar .container {
+  align-items: stretch; }
 
 .navbar {
   padding: 40px 0 0; }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: white; }
   .navbar a.navbar-brand {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -41,18 +40,15 @@ h3 {
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 0; }
-
-.nav-link {
-  padding: 6px; }
-
-a.nav-link {
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  padding: 6px 15px;
-  margin-bottom: 263px; }
-  a.nav-link:hover {
-    color: #ffffff !important; }
+  .navbar a.nav-link {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 6px 15px;
+    margin-bottom: 263px; }
+    .navbar a.nav-link:hover {
+      color: #ffffff !important; }
 
 .welcome {
   color: #ffffff; }
@@ -79,6 +75,10 @@ a.nav-link {
     padding-left: 34px;
     padding-right: 34px;
     margin-bottom: 259px; }
+    .welcome a:hover {
+      color: #c0301c;
+      background-color: #fff;
+      font-weight: 600; }
 
 .services {
   padding-top: 100px;
@@ -90,12 +90,13 @@ a.nav-link {
     margin-bottom: 70px; }
   .services a {
     text-decoration: none;
-    display: block; }
+    display: block;
+    margin-bottom: 30px; }
     .services a:before {
-      content: "";
+      content: "";
       display: inline-block;
       font-family: "Font Awesome 5 Free";
-      font-weight: 400;
+      font-weight: 900;
       color: #c0301c;
       font-size: 40px;
       width: 86px;
@@ -104,10 +105,24 @@ a.nav-link {
       border-radius: 50%;
       text-align: center; }
     .services a:nth-child(2):before {
-      content: "";
-      font-weight: 900; }
-    .services a:last-child:before {
+      content: "\\f121";
+      font-weight: 400; }
+    .services a:nth-child(3):before {
       content: "";
       font-weight: 400; }
+    .services a:hover:before {
+      color: #ffffff;
+      background-color: #c0301c; }
+  .services h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #555555;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  .services p.services_description {
+    font-family: #ffffff;
+    color: #555555;
+    font-size: 14px;
+    line-height: 21px; }
 
 /*# sourceMappingURL=style.css.map */
