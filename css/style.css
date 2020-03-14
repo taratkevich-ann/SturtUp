@@ -5,7 +5,6 @@
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #555555;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -18,6 +17,22 @@ h3 {
     background-color: #555555;
     margin: auto;
     margin-top: 30px; }
+
+.h4, h4 {
+  font-size: 14px !important; }
+
+h5 {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  text-align: center; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400 !important;
+  color: #555555; }
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px; }
 
 .bg-img {
   background-image: url("../images/bg_01.jpg");
@@ -50,49 +65,45 @@ h3 {
     .navbar a.nav-link:hover {
       color: #ffffff !important; }
 
-.welcome {
-  color: #ffffff; }
-  .welcome h1 {
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-size: 48px;
-    margin-bottom: 33px;
-    text-align: center; }
-  .welcome p {
-    font-family: "Roboto Slab", serif;
-    font-size: 20px;
-    margin-bottom: 54px;
-    text-align: center; }
-  .welcome a {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 46px;
-    border: solid 2px #fff3cd;
-    padding-left: 34px;
-    padding-right: 34px;
-    margin-bottom: 259px; }
-    .welcome a:hover {
-      color: #c0301c;
-      background-color: #fff;
-      font-weight: 600; }
+.welcome h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 33px;
+  text-align: center; }
+.welcome p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 54px;
+  text-align: center; }
+.welcome a {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 46px;
+  border: solid 2px #fff3cd;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-bottom: 259px; }
+  .welcome a:hover {
+    color: #c0301c;
+    background-color: #fff;
+    font-weight: 600; }
 
 .services {
   padding-top: 100px;
   color: #555555; }
-  .services p {
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    text-align: center;
+  .services h5 {
     margin-bottom: 70px; }
   .services a {
     text-decoration: none;
     display: block;
     margin-bottom: 30px; }
-    .services a:before {
+    .services a:after {
       content: "";
       display: inline-block;
       font-family: "Font Awesome 5 Free";
@@ -104,25 +115,112 @@ h3 {
       border: solid 2px #dddddd;
       border-radius: 50%;
       text-align: center; }
-    .services a:nth-child(2):before {
-      content: "\\f121";
+    .services a:nth-child(2):after {
+      content: "";
       font-weight: 400; }
-    .services a:nth-child(3):before {
+    .services a:nth-child(3):after {
       content: "";
       font-weight: 400; }
-    .services a:hover:before {
+    .services a:hover:after {
       color: #ffffff;
       background-color: #c0301c; }
-  .services h4 {
+  .services .services_description h4 {
     font-family: "Montserrat", sans-serif;
-    color: #555555;
-    font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 25px; }
-  .services p.services_description {
-    font-family: #ffffff;
-    color: #555555;
+  .services .services_description p {
+    line-height: 21px;
+    margin-bottom: 101px; }
+
+.about_us {
+  background-color: #f8f8f8;
+  color: #555555;
+  padding-top: 99px; }
+  .about_us .owl-carousel .owl-dots {
+    display: none; }
+  .about_us .owl-carousel .owl-nav {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important; }
+    .about_us .owl-carousel .owl-nav .owl-prev:after {
+      content: "";
+      display: inline-block;
+      color: #dddddd;
+      width: 35px;
+      line-height: 38px;
+      background-color: #c0301c;
+      position: absolute;
+      left: 0;
+      bottom: 70%; }
+    .about_us .owl-carousel .owl-nav .owl-prev:hover:after {
+      background-color: #8f8f8f; }
+    .about_us .owl-carousel .owl-nav .owl-next:after {
+      content: "";
+      display: inline-block;
+      color: #dddddd;
+      width: 35px;
+      line-height: 38px;
+      background-color: #c0301c;
+      position: absolute;
+      right: 0;
+      bottom: 70%; }
+    .about_us .owl-carousel .owl-nav .owl-next:hover:after {
+      background-color: #8f8f8f; }
+  .about_us h5 {
+    margin-bottom: 75px; }
+  .about_us p {
+    line-height: 27px;
+    margin-bottom: 75px; }
+  .about_us .content_carousel .img_carousel {
+    position: relative;
+    margin-bottom: 20px; }
+    .about_us .content_carousel .img_carousel img {
+      display: inline-block;
+      width: 100%; }
+    .about_us .content_carousel .img_carousel .social {
+      background-color: rgba(85, 85, 85, 0.5);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      opacity: 0; }
+      .about_us .content_carousel .img_carousel .social:hover {
+        opacity: 1; }
+      .about_us .content_carousel .img_carousel .social a {
+        text-decoration: none; }
+        .about_us .content_carousel .img_carousel .social a:after {
+          content: "";
+          display: inline-block;
+          font-family: Font Awesome\ 5 Brands;
+          font-weight: 900;
+          line-height: 28px;
+          width: 28px;
+          color: #ffffff;
+          font-size: 17px;
+          text-align: center;
+          margin-top: 190px; }
+        .about_us .content_carousel .img_carousel .social a:first-of-type:after {
+          margin-left: 76px; }
+        .about_us .content_carousel .img_carousel .social a:nth-child(2):after {
+          content: ""; }
+        .about_us .content_carousel .img_carousel .social a:nth-child(3):after {
+          content: ""; }
+        .about_us .content_carousel .img_carousel .social a:nth-child(4):after {
+          content: ""; }
+        .about_us .content_carousel .img_carousel .social a:hover:after {
+          background-color: #c0301c; }
+  .about_us .content_carousel .txt_carousel h5 {
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    line-height: 21px; }
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .about_us .content_carousel .txt_carousel p {
+    font-family: "Roboto Slab", serif;
+    font-size: 13px;
+    margin-bottom: 100px; }
+
+.latest_works {
+  padding-top: 100px; }
+  .latest_works h3 {
+    margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */

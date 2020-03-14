@@ -10,7 +10,7 @@ $main-font-size: 14px
 
 h3
   font-family: $main-font
-  color: $main-font-color
+  //color: $main-font-color
   font-size: 20px
   text-transform: uppercase
   text-align: center
@@ -24,6 +24,22 @@ h3
     background-color: #555555
     margin: auto
     margin-top: 30px
+
+.h4, h4
+  font-size: $main-font-size !important
+
+h5
+  font-family: $dop-font
+  font-size: 16px
+  text-align: center
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+  font-weight: 400 !important
+  color: $main-font-color
+
+p
+  font-family: $dop-font
+  font-size: $main-font-size
 
 .bg-img
   background-image: url("../images/bg_01.jpg")
@@ -63,17 +79,17 @@ h3
       color: $dop-font-color !important
 
 .welcome
-  color: $dop-font-color
 
   h1
     text-transform: uppercase
     font-family: $main-font
+    color: $dop-font-color
     font-size: 48px
     margin-bottom: 33px
     text-align: center
 
   p
-    font-family: $dop-font
+    color: $dop-font-color
     font-size: 20px
     margin-bottom: 54px
     text-align: center
@@ -90,6 +106,7 @@ h3
     padding-left: 34px
     padding-right: 34px
     margin-bottom: 259px
+
     &:hover
       color: #c0301c
       background-color: #fff
@@ -99,18 +116,15 @@ h3
   padding-top: 100px
   color: $main-font-color
 
-  p
-    font-family: $dop-font
-    font-size: 16px
-    text-align: center
+  h5
     margin-bottom: 70px
+
   a
     text-decoration: none
     display: block
     margin-bottom: 30px
 
-
-    &:before
+    &:after
       content: "\f031"
       display: inline-block
       font-family: 'Font Awesome 5 Free'
@@ -123,27 +137,147 @@ h3
       border-radius: 50%
       text-align: center
 
-    &:nth-child(2):before
-      content: "\\f121"
+    &:nth-child(2):after
+      content: "\f121"
       font-weight: 400
 
-    &:nth-child(3):before
+    &:nth-child(3):after
       content: "\f1cd"
       font-weight: 400
 
-    &:hover:before
+    &:hover:after
       color: $dop-font-color
       background-color: #c0301c
 
-  h4
-    font-family: $main-font
-    color: $main-font-color
-    font-size: $main-font-size
-    text-transform: uppercase
-    margin-bottom: 25px
+  .services_description
+    h4
+      font-family: $main-font
+      text-transform: uppercase
+      margin-bottom: 25px
 
-  p.services_description
-    font-family: $dop-font-color
-    color: $main-font-color
-    font-size: $main-font-size
-    line-height: 21px
+    p
+      line-height: 21px
+      margin-bottom: 101px
+
+
+.about_us
+  background-color: #f8f8f8
+  color: $main-font-color
+  padding-top: 99px
+
+  .owl-carousel
+    .owl-dots
+      display: none
+
+    .owl-nav
+      font-family: 'Font Awesome 5 Free' !important
+      font-weight: 900 !important
+
+      .owl-prev
+        &:after
+          content: "\f053"
+          display: inline-block
+          color: #dddddd
+          width: 35px
+          line-height: 38px
+          background-color: #c0301c
+          position: absolute
+          left: 0
+          bottom: 70%
+
+        &:hover:after
+
+          background-color: #8f8f8f
+
+      .owl-next
+        &:after
+          content: "\f054"
+          display: inline-block
+          color: #dddddd
+          width: 35px
+          line-height: 38px
+          background-color: #c0301c
+          position: absolute
+          right: 0
+          bottom: 70%
+
+        &:hover:after
+          background-color: #8f8f8f
+
+  h5
+    margin-bottom: 75px
+
+  p
+    line-height: 27px
+    margin-bottom: 75px
+
+  .content_carousel
+    .img_carousel
+      position: relative
+      margin-bottom: 20px
+
+      img
+        display: inline-block
+        width: 100%
+
+      .social
+        background-color: rgba(85, 85, 85, .5)
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        opacity: 0
+
+        &:hover
+          opacity: 1
+
+        a
+          text-decoration: none
+
+          &:after
+            content: "\f39e"
+            display: inline-block
+            font-family: Font Awesome\ 5 Brands
+            font-weight: 900
+            line-height: 28px
+            width: 28px
+            color: $dop-font-color
+            font-size: 17px
+            text-align: center
+            margin-top: 190px
+
+          &:first-of-type:after
+            margin-left: 76px
+
+          &:nth-child(2):after
+            content: "\f099"
+
+          &:nth-child(3):after
+            content: "\f0d5"
+
+          &:nth-child(4):after
+            content: "\f0e1"
+
+          &:hover:after
+            background-color: #c0301c
+
+    .txt_carousel
+      h5
+        font-family: $main-font
+        font-size: 14px
+        text-transform: uppercase
+        margin-bottom: 15px
+
+      p
+        font-family: $dop-font
+        font-size: 13px
+        margin-bottom: 100px
+
+.latest_works
+  padding-top: 100px
+  h3
+    margin-bottom: 60px
+
+
+
+
