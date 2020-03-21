@@ -40,6 +40,7 @@ h5
 p
   font-family: $dop-font
   font-size: $main-font-size
+  margin-bottom: 0
 
 .bg-img
   background-image: url("../images/bg_01.jpg")
@@ -313,8 +314,8 @@ p
       margin-bottom: 74px
       text-align: center
       outline: none
-      //&:hover
-      //  color: #c0301c
+  //&:hover
+  //  color: #c0301c
   .ui-tabs .ui-tabs-nav li
     margin: 0 !important
     padding: 0 !important
@@ -329,7 +330,7 @@ p
   .ui-tabs
     .ui-tabs-nav
       li.ui-tabs-active
-        color: #c0301c!important
+        color: #c0301c !important
         outline: none
 
   .ui-tabs
@@ -339,6 +340,9 @@ p
   .work_img
     display: inline-block
     margin-bottom: 30px
+
+    &:last-child
+      margin-bottom: 100px
 
 
     img
@@ -377,6 +381,116 @@ p
         padding: 0 21px
         font-family: $dop-font
         font-size: 14px
+
+.your_project
+  background-image: url("../images/bg-2_06.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 100px
+
+  p
+    font-family: $dop-font
+    font-size: 30px
+    color: $dop-font-color
+    margin-bottom: 22px
+
+    &:last-of-type
+      margin-bottom: 51px
+
+  a
+    display: inline-block
+    font-family: $main-font
+    color: $dop-font-color
+    font-size: 18px
+    text-decoration: none
+    text-transform: uppercase
+    line-height: 46px
+    border: solid 2px #fff3cd
+    padding-left: 35px
+    padding-right: 35px
+    margin-bottom: 98px
+
+    &:hover
+      color: #c0301c
+      background-color: #fff
+      font-weight: 600
+
+.block_post
+  padding-top: 95px
+
+  h5
+    margin-bottom: 62px
+
+  img
+    display: inline-block
+    width: 100%
+    margin-bottom: 100px
+
+  .up_content
+    font-family: $main-font
+    color: $main-font-color
+
+    .date
+      padding: 18px 23px
+      margin-right: 28px
+
+      border: solid 2px #555555
+
+      p
+        line-height: 27px
+        font-size: 24px
+        font-weight: 600
+
+    .txt_up_content
+      p
+        margin-bottom: 20px
+        color: #c0301c
+        text-transform: uppercase
+        font-size: $main-font-size
+        font-weight: 600
+
+      span
+        font-style: italic
+        font-size: 13px
+
+        &:nth-child(2), &:nth-child(4)
+          color: #c0301c
+
+  .main_txt_block_post
+    margin-top: 24px
+
+    p
+      line-height: 20px
+      font-size: 14px
+      margin-bottom: 38px
+
+    a
+      text-decoration: none
+      text-transform: uppercase
+      font-size: 13px
+      color: $main-font-color
+      font-weight: 600
+
+      &:hover
+        color: #c0301c
+
+.clients
+  padding-top: 98px
+  background-color: #f8f8f8
+  img
+    display: inline-block
+    width: 100%
+    margin-bottom: 77px
+
+
+
+
+
+
+
+
+
+
 
 
 
