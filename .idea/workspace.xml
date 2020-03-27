@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/LemonSchool/One-page" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
   <component name="ServiceViewManager">
@@ -85,7 +85,8 @@
       <workItem from="1584175957524" duration="282000" />
       <workItem from="1584176340143" duration="9534000" />
       <workItem from="1584352070301" duration="10970000" />
-      <workItem from="1584810659041" duration="9330000" />
+      <workItem from="1584810659041" duration="9709000" />
+      <workItem from="1585321335853" duration="2598000" />
     </task>
     <task id="LOCAL-00001" summary="create project, add sections header, welcome and services">
       <created>1583441786948</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584362449169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add section your_project, block_post and carousel and add styles for them">
+      <created>1584820307660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584820307660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,25 +134,26 @@
     <MESSAGE value="finished header&lt; corrected services" />
     <MESSAGE value="add owl-carousel and add styles for it" />
     <MESSAGE value="add tabs and styles for it" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tabs and styles for it" />
+    <MESSAGE value="add section your_project, block_post and carousel and add styles for them" />
+    <option name="LAST_COMMIT_MESSAGE" value="add section your_project, block_post and carousel and add styles for them" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1584362445863">
+    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1584820302158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584362445863" />
+    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584820302158" />
     <state x="301" y="129" key="EditFileWatcherDialog" timestamp="1583149377701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="301" y="129" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1583149377701" />
-    <state x="499" y="102" key="FileChooserDialogImpl" timestamp="1583441045868">
+    <state x="499" y="102" key="FileChooserDialogImpl" timestamp="1585323336039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583441045868" />
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1584362454955">
+    <state x="499" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585323336039" />
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1584820313718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584362454955" />
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584820313718" />
     <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584810667244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
